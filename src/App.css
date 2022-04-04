@@ -7,16 +7,60 @@
   height: 40vmin;
 }
 
-.App-header {
-  background-color: #282c34;
+.Nav-bar {
+  background-color: brown;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Menu-button {
+  border: 0;
+  background-color: brown;
+  padding: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.App-body {
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.Pages {
+  background-color: whitesmoke;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.Footer {
+  background-color: brown;
+  min-height: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(7px + 1vmin);
   color: white;
 }
+
 
 .App-link {
   color: #61dafb;
